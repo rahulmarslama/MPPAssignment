@@ -1,0 +1,12 @@
+In the code folder for this lab there is a package lesson3.labs.prob1 containing two classes, Person
+and PersonWithJob. In each class, the equals method has been overridden. Run the main method in
+the PersonWithJob class. In the main method, two instances of Person have been compared to
+determine if they are equal. The comparison is done in two different ways. One way leads to a
+“false”, the other to a “true.” Explain why this has happened.
+
+Answer:
+When we use p1.equals(p2), this uses the equals method of PersonWithJob class. This equals method is comparing whether
+the two objects are of same type. As they both not of same type, it returns false.
+
+When we use p2.equals(p1), this uses the equals method of Person class. AS they are both the type of Person, this
+returns true.
