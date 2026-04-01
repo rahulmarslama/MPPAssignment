@@ -6,16 +6,17 @@ import java.util.List;
 public class Order
 {
     public List<OrderLine> orderLineList;
-
-    public Order()
+    public String orderName;
+    public Order(String orderName,int quantity)
     {
+        this.orderName = orderName;
         orderLineList = new ArrayList<OrderLine>();
-        addOrderLine();
+        addOrderLine(quantity);
     }
 
-    public void addOrderLine()
+    public void addOrderLine(int quantity)
     {
-        orderLineList.add(new OrderLine(this));
+        orderLineList.add(new OrderLine(this,quantity));
     }
 
 

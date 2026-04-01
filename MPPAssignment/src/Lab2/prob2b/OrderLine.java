@@ -5,8 +5,10 @@ public class OrderLine
 
     public Order order;
 
-    OrderLine(Order order)
+    public int quantity;
+    OrderLine(Order order,int quantity)
     {
+        this.quantity = quantity;
         this.order = order ;
     }
 

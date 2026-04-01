@@ -4,9 +4,15 @@ public class GradeReport
 {
     public Student student;
 
-    GradeReport(Student st)
+    public double grade;
+    GradeReport(double grade,Student st)
     {
+        this.grade = grade;
         student = st;
+    }
+
+    public double getGrade() {
+        return grade;
     }
 
     public Student getStudent() {
