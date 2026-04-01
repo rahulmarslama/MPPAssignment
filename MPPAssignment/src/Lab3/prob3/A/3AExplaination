@@ -1,0 +1,6 @@
+No, it does not make sense to use inheritance in this case.
+
+First, the "IS-A" relation is not valid. Circle IS NOT a cylinder.
+
+Second, logically a cylinder object can never be replace by circle.
+Thus it invalids the LSA principle.
