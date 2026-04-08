@@ -15,4 +15,4 @@
     SELECT dept_id
     FROM employee
     GROUP BY dept_id
-    HAVING avg(salary) > 150000
+    HAVING avg(salary) > 150000;
