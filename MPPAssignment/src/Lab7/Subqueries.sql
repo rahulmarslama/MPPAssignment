@@ -3,13 +3,14 @@
     FROM employee
     WHERE salary = (SELECT max(salary) from employee);
 
--- 2. List the names of employees who work on a project that has an estimated_days of 180
+-- 2. List the names of employees who work on a project that has an estimated number of days of 180
 
     SELECT employee.name
     FROM employee
-    INNER JOIN employee_project ON employee.emp_id = employee_project.emp_id
-    INNER JOIN project ON employee_project.project_id = project.project_id
-    WHERE project.estimated_days = 180;
+    WHERE emp_id IN (
+        SELECT employee_project.emp_id FROM employee_project 
+        INNER JOIN project ON employee_project.project_id = project.project_id
+        WHERE project.estimated_days = 180);
 
 -- 3. Find the project_id of all projects that have an estimated duration greater than the
 -- average estimated duration of all projects.
