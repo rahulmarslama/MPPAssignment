@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourcePerFileMappings">
-    <file url="file://$PROJECT_DIR$/StudentQuery.sql" value="eee12a84-4db4-4807-86b8-12807b468468" />
+    <file url="file://$PROJECT_DIR$/src/Lab7/Aggregate.sql" value="7d05c9eb-1693-4edb-b766-1a05f4c93a9f" />
+    <file url="file://$PROJECT_DIR$/src/Lab7/FeedData.sql" value="7d05c9eb-1693-4edb-b766-1a05f4c93a9f" />
+    <file url="file://$PROJECT_DIR$/src/Lab7/Joins.sql" value="7d05c9eb-1693-4edb-b766-1a05f4c93a9f" />
+    <file url="file://$PROJECT_DIR$/src/Lab7/Selection.sql" value="7d05c9eb-1693-4edb-b766-1a05f4c93a9f" />
+    <file url="file://$PROJECT_DIR$/src/Lab7/Subqueries.sql" value="7d05c9eb-1693-4edb-b766-1a05f4c93a9f" />
+    <file url="file://$PROJECT_DIR$/src/Lab7/TableCreationSQL.sql" value="7d05c9eb-1693-4edb-b766-1a05f4c93a9f" />
   </component>
 </project>
